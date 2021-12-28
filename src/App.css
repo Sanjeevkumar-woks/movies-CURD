@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  font-family: "Roboto";
+  font-size: 16px;
+  background: #5e42a6;
+}
+
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #312450;
+  font-size: 0.65em;
+}
+
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+.navbrand{
+color: white;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+gap: 2rem;
+}
+sup, .super{
+  color: whitesmoke
+}
+.movie-container{
+  margin-left: 30%;
+  text-align: center;
+ height: min-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  gap: 2rem;
+}
+.movie-poster{
+  width: 175px;
+  height: 200px;
+  object-fit: cover;
+}
+.movie{
+ background-color:white;
+ border-radius: 20px;
+ margin-top: 10px;
+}
+.movie:hover {
+  transform: translateY(-0.5rem);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+h3{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  margin-top: 10px;
+  padding: 0px;
+ 
+}
+.movie-specs{
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 20px;
+}
+.movie-summary{
+  font-size: small;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+.like-dislike{
+  display: flex;
+ justify-content: space-between;
+ padding: 10px 10px 0px 0px;
+ margin: 0px;
+}
+
+.add-movie {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 25%;
+  justify-content: space-around;
+  padding: 20px;
+}
+input {
+  background-color: lightgray;
+  border-radius: 15px 50px;
+  border: 0px;
+  padding: 10px;
+}
+.add-btn {
+  border: 0px;
+  background-color: white;
+  border-radius: 15px 50px;
+  color: black;
+  font-weight: bold;
+}
+.tablets{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  margin: 10px;
+}
+
+
+
+
+
+.home{
+  margin: 0% 20%;
+  padding: 0px;
+  background-image: url('https://i.redd.it/qef7d7wtqzc41.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  width:100%;
+}
+.title{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 100px;
+  text-align: center;
+}
